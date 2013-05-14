@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Test</title>
+    <script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+    <script src="javascripts/jquery.picasa.js"></script>
+    <script src="javascripts/test.js"></script>
+  </head>
+  <body>
+    
+    <div id="main">
+    
+      <div id="signin-btn-container">
+        <span 
+          class='g-signin'
+          data-scope='https://www.googleapis.com/auth/plus.login'
+          data-requestvisibleactions='http://schemas.google.com/AddActivity'
+          data-clientId = '593793460774.apps.googleusercontent.com';
+          data-callback='onSignInCallback'></span>
+      </div>
+      
+      <div id="signedin-txt"></div>
+      
+      <div id="photo-wall">
+      </div>
+      
+    </div>
+    
+  </body>
+</html>
